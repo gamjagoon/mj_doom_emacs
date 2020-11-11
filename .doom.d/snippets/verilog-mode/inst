@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: inst
+# uuid: inst
+# key: inst
+# condition: i
+# --
+/*AUTOINST*/

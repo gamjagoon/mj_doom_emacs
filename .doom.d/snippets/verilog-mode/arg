@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: arg
+# uuid: verilog
+# key: arg
+# condition: i
+# --
+/*AUTOARG*/

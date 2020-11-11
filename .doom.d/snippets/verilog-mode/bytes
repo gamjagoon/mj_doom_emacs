@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: bytes
+# uuid: verilog
+# key: by
+# condition: i
+# --
+[$1:$2]$3

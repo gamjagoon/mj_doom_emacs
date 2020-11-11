@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: autos
+# uuid: verilog
+# key: autos
+# condition: i
+# --
+/*AUTOINPUT*/
+/*AUTOOUTPUT*/
+/*AUTOWIRE*/
+/*AUTOREG*/
+$1

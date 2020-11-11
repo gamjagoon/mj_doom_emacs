@@ -1,0 +1,31 @@
+# -*- mode: snippet -*-
+# name: counter
+# uuid: verilog
+# key: counter
+# condition: b
+# --
+//-----------------------------------------------------------------------------
+// Title       : Counter
+//-----------------------------------------------------------------------------
+reg [$1:$2] cnt;
+
+// Watchdog Control Signal
+wire   cnt_init;  // counter init signal
+wire   cnt_incr;  // counter increase signal
+
+assign cnt_init = $3;
+assign cnt_incr = $4;
+
+always @ (posedge clk or negedge rst_n) begin
+   if(!rst_n) begin
+      cnt <= 'b0;
+   end else begin
+      if(cnt_init) begin
+         cnt <= 'b0;
+      end else if(cnt_incr) begin
+         cnt <= cnt + 'd1;
+      end
+   end
+end
+
+endsnippet
