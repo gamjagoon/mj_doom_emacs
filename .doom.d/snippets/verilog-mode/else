@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
 # name: else
-# uuid: verilog
+# uuid: verilog-mode
 # key: else
-# condition: i
+# condition: t
 # --
 else begin
    $1

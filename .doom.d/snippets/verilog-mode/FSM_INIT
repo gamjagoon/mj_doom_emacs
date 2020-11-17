@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
 # name: FSM_INIT
-# uuid: verilog
+# uuid: verilog-mode
 # key: FSG_INIT
-# condition: b
+# condition: t
 # --
 localparam ST_SIZE        = 9;
 localparam ${1:CLEAR}     = {{(ST_SIZE-1){1'b0}}, 1'b1} << 0;

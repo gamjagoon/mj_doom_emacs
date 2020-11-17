@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: arg
+# name: by
 # uuid: verilog-mode
-# key: arg
-# condition: t
+# key: by
+# condition: i
 # --
-/*AUTOARG*/
+[$1:$2] $3

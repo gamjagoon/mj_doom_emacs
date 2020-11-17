@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
 # name: module
-# uuid: verilog
+# uuid: verilog-mode
 # key: module
-# condition: b
+# condition: t
 # --
 module $1 (/*AUTOARG*/) ;
    $2

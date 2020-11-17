@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
 # name: generate
-# uuid: verilog
+# uuid: verilog-mode
 # key: gen
-# condition: i
+# condition: t
 # --
 genvar $1;
 generate

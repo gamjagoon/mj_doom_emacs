@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
 # name: autos
-# uuid: verilog
+# uuid: verilog-mode
 # key: autos
-# condition: i
+# condition: t
 # --
 /*AUTOINPUT*/
 /*AUTOOUTPUT*/
