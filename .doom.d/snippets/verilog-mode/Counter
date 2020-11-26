@@ -1,8 +1,7 @@
 # -*- mode: snippet -*-
 # name: counter
-# uuid: verilog-mode
 # key: counter
-# condition: t
+# group : verilog
 # --
 //-----------------------------------------------------------------------------
 // Title       : Counter

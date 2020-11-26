@@ -1,8 +1,7 @@
 # -*- mode: snippet -*-
 # name: if
-# uuid: verilog-mode
 # key: if
-# condition: t
+# group : verilog
 # --
 if($1) begin
    $2

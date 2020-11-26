@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: inst
-# uuid: verilog-mode
+# group: verilog
 # key: inst
-# condition: t
 # --
 /*AUTOINST*/

@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: by
-# uuid: verilog-mode
 # key: by
-# condition: i
+# group : verilog
 # --
 [$1:$2] $3

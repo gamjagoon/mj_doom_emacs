@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: FSM_INIT
-# uuid: verilog-mode
+# group: verilog
 # key: FSG_INIT
 # condition: t
 # --
