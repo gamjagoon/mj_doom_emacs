@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
-# name: if
-# key: if
+# name: begin
 # group : verilog
+# key: begin
 # --
-if($1) begin
-   $2
+begin
+   $1
 end

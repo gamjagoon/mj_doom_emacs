@@ -26,7 +26,8 @@
 ;; There are two ways to load a theme. Both assume the theme is installed and
 ;; available. You can either set `doom-theme' or manually load a theme with the
 ;; `load-theme' function. This is the default:
-(setq doom-theme 'doom-solarized-dark)
+(setq doom-theme 'doom-fairy-floss)
+(xterm-mouse-mode t)
 
 ;; If you use `org' and don't want your org files in the default location below,
 ;; change `org-directory'. It must be set before org loads!
@@ -35,6 +36,8 @@
 ;; This determines the style of line numbers in effect. If set to `nil', line
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
 (setq display-line-numbers-type 'relative)
+(setq tab-width 3)
+(autoload 'whitespace-toggle-options "S")
 
 ;; numbers are some additional functions/macros that could help you configure Doom:
 ;;
@@ -54,5 +57,3 @@
 ;; they are implemented.
         ;
 
-(setq-default indent-tabs-mode nil)
-(setq-default tab-width 3)
